@@ -1,0 +1,26 @@
+h1 {
+    font-family: "Arial Narrow", helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-size: 22px;
+    font-weight: normal;
+    font-variant: small-caps;
+    color: blue;    
+}
+
+body {
+    background-color:black!important;
+    color:white!important;
+}
+
+h2 {
+    font-family: "Arial Narrow", helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: normal;
+    font-variant: small-caps;
+    color: red;
+}
+
+a:hover {
+    cursor: url(cursor.png)8 0,auto!important;
+}
