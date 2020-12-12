@@ -2,7 +2,7 @@
 
 Clone the repo, change into the directory:
 
-    git clone https://github.com/Mr-Steal-Your-Script/website && cd website
+    git clone https://github.com/IThinkImOKAY/website && cd website
 
 Run:
 
