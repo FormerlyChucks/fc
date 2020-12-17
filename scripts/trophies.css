@@ -1,0 +1,26 @@
+img {
+    display: block;
+    max-height: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+h1 {
+    font-size: 50px;
+    color: red;
+    }
+h2 {
+    font-size: 20px;
+    color: blue;
+    }
+html {
+    background-color: black;
+    }
+body {
+    background-color: grey;
+    color: black;
+    box-sizing: border-box;
+    width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    text-align: center;
+    }
