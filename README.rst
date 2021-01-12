@@ -6,7 +6,7 @@ Clone the repo, change into the directory:
 
 .. code-block:: bash
 
-    git clone https://github.com/IThinkImOKAY/website && cd website
+    git clone https://github.com/IThinkImOKAY/IThinkImOKAY.github.io && cd IThinkImOKAY.github.io
 
 Run:
 
