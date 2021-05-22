@@ -3,7 +3,7 @@
     <link rel="shortcut icon" href="/static/favicon.ico">
     <link rel="stylesheet" href="/static/style.css" type="text/css">
     <link rel="stylesheet" href="/static/skeleton.css" type="text/css">
-    <title>Kiss Kiss</title>
+    <title>Entries</title>
 </head>
 <body bgcolor=ffffff>
     <center>
@@ -12,11 +12,20 @@
                 <center><font size=-1>I roll 'til the wheels fall off, I'm workin' tirelessly!</font><br></center>
                 <hr>
                 <center>
-                    <a class="button" href="/p/">Pages</a>
-                    <a class="button" href="/e/">Entries</a>
+                    Want to download an image?
+                    <pre><code>import requests
+url = 'https://ithinkimokay.github.io/static/favicon.ico'
+r = requests.get(url)
+with open('favicon.ico','wb') as f:
+    f.write(r.content)</code></pre>
+                    Need to prettify some JSON?
+                    <pre><code>import pprint
+json = #Valid JSON
+pprint.pprint(json)</code></pre>
                 </center>
                 </td></tr>
             </table>
+        <a class="button" href="/e/">Entries</a>
         <a class="button" href="/">Home</a>
         <a class="button" href="https://github.com/IThinkImOKAY/IThinkImOKAY.github.io">Source (v 2.0)</a>
         </center>

@@ -9,3 +9,8 @@ body {
 h1, h2 {
     font-variant: small-caps!important;
 }
+
+pre, code {
+    text-align:left!important;
+    color:hotpink!important;
+}
