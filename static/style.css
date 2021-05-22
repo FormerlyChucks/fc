@@ -2,7 +2,7 @@ body {
     background-color: #000;
     color: #FFF!important;
 }
-.button, h1, h2 {
+.button, h1, h2, input[type="submit"] {
     color:hotpink!important;
 }
 
@@ -10,7 +10,6 @@ h1, h2 {
     font-variant: small-caps!important;
 }
 
-pre, code {
-    text-align:left!important;
-    color:hotpink!important;
+.credit {
+    font-size: 10px;
 }
