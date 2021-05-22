@@ -1,0 +1,11 @@
+body {
+    background-color: #000;
+    color: #FFF!important;
+}
+.button, h1, h2 {
+    color:hotpink!important;
+}
+
+h1, h2 {
+    font-variant: small-caps!important;
+}
