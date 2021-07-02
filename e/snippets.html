@@ -22,6 +22,38 @@ with open('favicon.ico','wb') as f:
                     <pre><code>import pprint
 json = #Valid JSON
 pprint.pprint(json)</code></pre>
+                    Getting the current time:
+                    <pre><code>from datetime import datetime
+print(datetime.now().strftime("%H:%M:%S"))
+                    </code></pre>
+                    Asking the user what they think?
+                    <pre><code>q = input("What is your name? ")
+print("Hello, " + q)
+                    </code></pre>
+                    Get a random item from a list:
+                    <pre><code>import random
+
+choices = ['1', '2', '3']
+print(random.choice(choices))
+                    </code></pre>
+                    Opening a file and writing text?
+                    <pre><code>with open("file.txt", "r") as file:
+    file.write("Example Text\n")
+                    </code></pre>
+                    Convert utc to date format:
+                    <pre><code>import time
+
+created_utc = 1625184932
+date = time.strftime("%D", time.gmtime(created_utc))
+print(date)
+                    </code></pre>
+                    To convert utc to days ago:
+                    <pre><code>import time
+from datetime import datetime, timedelta
+
+created_utc = 1625184932
+print((datetime.utcnow() - datetime.utcfromtimestamp(created_utc)).days)
+                    </code></pre>
                 </center>
                 </td></tr>
             </table>
